@@ -1,4 +1,4 @@
-package com.example.exchangeapiap2.repository
+package com.itsecurity.hwexchangeapi.repository
 
 import com.itsecurity.hwexchangeapi.data.remote.ExchangeApi
 import com.itsecurity.hwexchangeapi.data.remote.dto.ExchangeDto

@@ -5,7 +5,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.itsecurity.hwexchangeapi.data.ExchangeListState
-import com.example.exchangeapiap2.repository.ExchangeRepository
+import com.itsecurity.hwexchangeapi.repository.ExchangeRepository
 import com.example.exchangeapiap2.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn

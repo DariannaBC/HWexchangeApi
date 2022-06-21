@@ -1,7 +1,7 @@
 package com.itsecurity.hwexchangeapi.di
 
 import com.itsecurity.hwexchangeapi.data.remote.ExchangeApi
-import com.example.exchangeapiap2.repository.ExchangeRepository
+import com.itsecurity.hwexchangeapi.repository.ExchangeRepository
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import dagger.Module
