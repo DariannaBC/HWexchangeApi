@@ -1,7 +1,6 @@
 package com.example.exchangeapiap2.data.remote
 
-import com.example.exchangeapiap2.data.remote.dto.ExchangeDto
-import retrofit2.Call
+import com.itsecurity.hwexchangeapi.data.remote.dto.ExchangeDto
 import retrofit2.http.GET
 import retrofit2.http.Path
 

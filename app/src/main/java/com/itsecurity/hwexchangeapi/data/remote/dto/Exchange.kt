@@ -1,4 +1,4 @@
-package com.example.exchangeapiap2.data.remote.dto
+package com.itsecurity.hwexchangeapi.data.remote.dto
 
 data class ExchangeDto(
     val name: String,

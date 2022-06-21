@@ -12,16 +12,16 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.example.exchangeapiap2.data.remote.dto.ExchangeDto
+import com.itsecurity.hwexchangeapi.data.remote.dto.ExchangeDto
 import com.example.exchangeapiap2.model.ExchangeViewModel
-import com.example.exchangeapiap2.ui.theme.ExchangeApiAp2Theme
+
+import com.itsecurity.hwexchangeapi.ui.theme.HWexchangeApiTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ExchangeApiAp2Theme {
+            HWexchangeApiTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
@@ -65,7 +65,7 @@ fun ExchangeListScreen(
 
 @Composable
 fun ExchangeItem(
-    exchange:ExchangeDto,
+    exchange: ExchangeDto,
     onClick : (ExchangeDto) -> Unit
 ) {
     Column(modifier = Modifier
