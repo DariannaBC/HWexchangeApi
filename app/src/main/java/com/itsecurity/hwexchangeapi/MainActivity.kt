@@ -19,7 +19,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.itsecurity.hwexchangeapi.data.remote.dto.ExchangeDto
-import com.example.exchangeapiap2.model.ExchangeViewModel
+import com.itsecurity.hwexchangeapi.model.ExchangeViewModel
 
 import com.itsecurity.hwexchangeapi.ui.theme.HWexchangeApiTheme
 import dagger.hilt.android.AndroidEntryPoint

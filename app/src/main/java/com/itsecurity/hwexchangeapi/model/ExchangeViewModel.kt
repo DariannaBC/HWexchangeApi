@@ -1,4 +1,4 @@
-package com.example.exchangeapiap2.model
+package com.itsecurity.hwexchangeapi.model
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
