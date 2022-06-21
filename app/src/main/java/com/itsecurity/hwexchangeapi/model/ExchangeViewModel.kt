@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.itsecurity.hwexchangeapi.data.ExchangeListState
 import com.itsecurity.hwexchangeapi.repository.ExchangeRepository
-import com.example.exchangeapiap2.util.Resource
+import com.itsecurity.hwexchangeapi.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

@@ -2,7 +2,7 @@ package com.itsecurity.hwexchangeapi.repository
 
 import com.itsecurity.hwexchangeapi.data.remote.ExchangeApi
 import com.itsecurity.hwexchangeapi.data.remote.dto.ExchangeDto
-import com.example.exchangeapiap2.util.Resource
+import com.itsecurity.hwexchangeapi.util.Resource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import retrofit2.HttpException
