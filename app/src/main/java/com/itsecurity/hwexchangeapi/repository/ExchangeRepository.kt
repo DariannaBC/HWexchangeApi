@@ -1,6 +1,6 @@
 package com.example.exchangeapiap2.repository
 
-import com.example.exchangeapiap2.data.remote.ExchangeApi
+import com.itsecurity.hwexchangeapi.data.remote.ExchangeApi
 import com.itsecurity.hwexchangeapi.data.remote.dto.ExchangeDto
 import com.example.exchangeapiap2.util.Resource
 import kotlinx.coroutines.flow.Flow

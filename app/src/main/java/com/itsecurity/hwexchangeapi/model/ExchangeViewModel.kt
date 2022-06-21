@@ -4,7 +4,7 @@ import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.exchangeapiap2.data.ExchangeListState
+import com.itsecurity.hwexchangeapi.data.ExchangeListState
 import com.example.exchangeapiap2.repository.ExchangeRepository
 import com.example.exchangeapiap2.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel

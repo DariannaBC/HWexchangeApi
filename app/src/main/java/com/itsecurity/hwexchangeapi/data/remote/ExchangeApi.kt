@@ -1,4 +1,4 @@
-package com.example.exchangeapiap2.data.remote
+package com.itsecurity.hwexchangeapi.data.remote
 
 import com.itsecurity.hwexchangeapi.data.remote.dto.ExchangeDto
 import retrofit2.http.GET
